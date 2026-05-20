@@ -1,5 +1,6 @@
 import requests
 
+
 def getWeather(city):
     response = requests.get("http://api.weatherstack.com/current?access_key=e2777bef4bee297e1c99800b853e4e53&query=" + city)
 
